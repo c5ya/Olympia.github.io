@@ -1,2 +1,152 @@
 # Olympia
 New Olympia
+
+<div class="subtitle">70+ Years of Trust & Loyalty in the Greater Merrimack Valley</div>
+            </div>
+        </header>
+
+        <section class="content">
+            <p>To our cherished customers, neighbors, and friends throughout the Greater Merrimack Valley:</p>
+            
+            <p class="highlight">For over seven decades, you have welcomed us into your lives, trusted us with your needs, and allowed us to be part of your families’ stories.</p>
+            
+            <p>From generation to generation, you’ve chosen us — through good times and challenging ones — and your loyalty has been the foundation of everything we are today.</p>
+            
+            <p>We are deeply grateful for the countless smiles, conversations, handshakes, and moments shared across our counter, in your homes, and throughout our community. You are not just customers; you are the heart of our business and the reason we open our doors every day with pride.</p>
+            
+            <p>As we celebrate more than 70 years of service, we look back with profound appreciation and forward with continued commitment to earning your trust every single day.</p>
+            
+            <div class="signature">
+                With heartfelt gratitude,<br>
+                <strong>[Your Business Name] Family & Team</strong>
+            </div>
+        </section>
+
+        <footer>
+            Serving the Greater Merrimack Valley since the 1950s<br>
+            Thank you for letting us be part of your story.
+        </footer>
+    </div>
+</body>
+</html>
+Just replace [Your Business Name] with your actual business name, and if you have a specific hero photo of your store, the river, or the valley, swap out the Unsplash URL with your own image link. The page is fully responsive and ready to use as a single-page thank-you site or landing page.878msFastchange [Your Business Name] to Olympia RestaurantHTML<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You for 70+ Years | Olympia Restaurant</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+        }
+        header {
+            background: url('https://source.unsplash.com/random/1600x900/?merrimack-valley,river') no-repeat center center/cover;
+            height: 400px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0,0,0,0.5);
+        }
+        .header-content {
+            position: relative;
+            z-index: 2;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 4.5rem;
+            margin: 0;
+            text-shadow: 3px 3px 10px rgba(0,0,0,0.8);
+            letter-spacing: 2px;
+        }
+        .subtitle {
+            font-size: 1.8rem;
+            margin-top: 10px;
+            font-weight: 300;
+        }
+        .content {
+            padding: 60px 50px;
+            text-align: center;
+        }
+        .content p {
+            font-size: 1.3rem;
+            max-width: 800px;
+            margin: 25px auto;
+            color: #444;
+        }
+        .highlight {
+            font-size: 2.2rem;
+            font-weight: bold;
+            color: #1e3c72;
+            margin: 40px 0;
+        }
+        .signature {
+            margin-top: 60px;
+            font-size: 1.5rem;
+            font-style: italic;
+            color: #555;
+        }
+        footer {
+            background: #1e3c72;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            font-size: 1.1rem;
+        }
+        @media (max-width: 768px) {
+            h1 { font-size: 3rem; }
+            .subtitle { font-size: 1.4rem; }
+            header { height: 300px; }
+            .content { padding: 40px 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <h1>Thank You</h1>
+                <div class="subtitle">70+ Years of Trust & Loyalty in the Greater Merrimack Valley</div>
+            </div>
+        </header>
+
+        <section class="content">
+            <p>To our cherished customers, neighbors, and friends throughout the Greater Merrimack Valley:</p>
+            
+            <p class="highlight">For over seven decades, you have welcomed us into your lives, trusted us with your needs, and allowed us to be part of your families’ stories.</p>
+            
+            <p>From generation to generation, you’ve chosen us — through good times and challenging ones — and your loyalty has been the foundation of everything we are today.</p>
+            
+            <p>We are deeply grateful for the countless smiles, conversations, handshakes, and moments shared across our counter, in your homes, and throughout our community. You are not just customers; you are the heart of our business and the reason we open our doors every day with pride.</p>
+            
+            <p>As we celebrate more than 70 years of service, we look back with profound appreciation and forward with continued commitment to earning your trust every single day.</p>
+            
+            <div class="signature">
+                With heartfelt gratitude,<br>
+                <strong>Olympia Restaurant Family & Team</strong>
+            </div>
+        </section>
+
+        <footer>
+            Serving the Greater Merrimack Valley since the 1950s<br>
+            Thank you for letting us be part of your story.
